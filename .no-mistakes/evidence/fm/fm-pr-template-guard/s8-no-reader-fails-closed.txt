@@ -1,0 +1,4 @@
+$ FM_HOME=$LAB PATH=<coreutils, jq, awk; no gh, no gh-axi> bin/fm-pr-description-check.sh t-ang https://github.com/angular/angular/pull/71113
+(command -v gh: none; gh-axi: none)
+error: could not read https://github.com/angular/angular/pull/71113 from GitHub with gh or gh-axi: gh: not on PATH gh-axi: not on PATH 
+[exit 1]

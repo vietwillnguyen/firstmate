@@ -1,0 +1,9 @@
+$ FM_HOME=$LAB bin/fm-pr-description-check.sh t-ang https://github.com/angular/angular/pull/71130
+body: missing template heading: ## PR Checklist
+body: missing template heading: ## PR Type
+body: missing template heading: ## What is the current behavior?
+body: missing template heading: ## What is the new behavior?
+body: missing template heading: ## Does this PR introduce a breaking change?
+body: missing template heading: ## Other information
+error: https://github.com/angular/angular/pull/71130 description fails the PR description guard (6 problem(s) above); edit the PR title or body on GitHub and run bin/fm-pr-description-check.sh t-ang https://github.com/angular/angular/pull/71130 again
+[exit 1]

@@ -1,0 +1,3 @@
+$ FM_HOME=$LAB bin/fm-pr-description-check.sh t-self https://github.com/kunchenguid/firstmate/pull/6575
+skipped: t-self is not work on a project clone in this home
+[exit 0]

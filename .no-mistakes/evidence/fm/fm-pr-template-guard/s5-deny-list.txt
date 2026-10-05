@@ -1,0 +1,9 @@
+## config/pr-description-deny = httpResource
+$ FM_HOME=$LAB bin/fm-pr-description-check.sh t-ang https://github.com/angular/angular/pull/71113
+title: denied product name "httpresource": docs(http): document download progress tracking in httpResource
+error: https://github.com/angular/angular/pull/71113 description fails the PR description guard (1 problem(s) above); edit the PR title or body on GitHub and run bin/fm-pr-description-check.sh t-ang https://github.com/angular/angular/pull/71113 again
+[exit 1]
+## config/pr-description-deny = angular (only appears in text the repo template itself ships)
+$ FM_HOME=$LAB bin/fm-pr-description-check.sh t-ang https://github.com/angular/angular/pull/71113
+passed: https://github.com/angular/angular/pull/71113 description
+[exit 0]

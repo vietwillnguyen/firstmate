@@ -1,0 +1,8 @@
+ok - work outside this home's project clones is skipped
+ok - a non-GitHub change is skipped with a note
+ok - a PR neither gh nor gh-axi can read fails instead of passing
+ok - gh-axi reads the PR and template when gh cannot, beyond its output clamp
+ok - a template read failure other than absence fails instead of skipping
+ok - an invalid request exits 2
+ok - fm-pr-check records and arms nothing while the description fails
+ok - the merge-time record skips the guard only for the PR already recorded ready

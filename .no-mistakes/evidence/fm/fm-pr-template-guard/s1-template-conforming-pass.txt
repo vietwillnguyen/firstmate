@@ -1,0 +1,3 @@
+$ FM_HOME=$LAB bin/fm-pr-description-check.sh t-ang https://github.com/angular/angular/pull/71113
+passed: https://github.com/angular/angular/pull/71113 description
+[exit 0]

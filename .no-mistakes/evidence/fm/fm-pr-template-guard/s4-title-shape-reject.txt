@@ -1,0 +1,4 @@
+$ FM_HOME=$LAB bin/fm-pr-description-check.sh t-cli https://github.com/cli/cli/pull/14540
+title: does not match <type>: <description> or <type>(<scope>): <description> (type is one of feat fix hotfix refactor docs test chore perf ci build style revert): Allow repo set-default --unset without an argument
+error: https://github.com/cli/cli/pull/14540 description fails the PR description guard (1 problem(s) above); edit the PR title or body on GitHub and run bin/fm-pr-description-check.sh t-cli https://github.com/cli/cli/pull/14540 again
+[exit 1]
